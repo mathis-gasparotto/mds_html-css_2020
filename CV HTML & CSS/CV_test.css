@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    font-family: 'Josefin Sans', 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#bg_image {
+    background-image: url(img/bg_best.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#bg_image h1 {
+    margin: 0px;
+    font-size: 2em;
+}
+
+#bg_image h2 {
+    font-size: 1.5em;
+}
+
+.white_text {
+    color: white;
+}
+
+.categorie {
+    margin-bottom: 5px;
+}

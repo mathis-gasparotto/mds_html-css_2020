@@ -1,0 +1,151 @@
+body {
+    font-family: 'Sans Pro' , sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#page {
+    margin: auto;
+    width: 1100px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 1000px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#menu nav {
+    margin-top: 2em;
+}
+
+#menu img {
+    margin-top: 1em;
+}
+
+#bottom_bar {
+    background-color: black;
+    width: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+
+#bottom_bar p{
+    font-size: 18px;
+    color: white;
+}
+
+#newsletter h1 {
+    font-family: 'Roboto Slab' , sans-serif;
+    color: white;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+#newsletter p {
+    font-family: 'Roboto Slab' , sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
+#newsletter {
+    background-color: #0044aa;
+    padding: 1em;
+    padding-bottom: 2em;
+    border-radius: 5px;
+    margin-top: 2em;
+}
+
+#email{
+    outline: none;
+    width: 600px;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+#button_subscribe a{
+    text-decoration: none;
+    color: white;
+    background-color: #1f1f1f;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+}
+
+#button_subscribe {
+    margin-top: 1em;
+}
+
+.title_content {
+    margin: 1.5em 0;
+}
+
+.article {
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    margin-top: 1em;
+}
+
+.article_img {
+    margin-right: 1em;
+    transition: all 100ms ease-in-out;
+}
+
+.article_img:hover {
+    filter: opacity(50%);
+}
+
+.name_article {
+    margin: 5px 0px;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.button_read {
+    text-decoration: none;
+    color: white;
+    background-color: #0044aa;
+    padding: 0.6em 0.8em;
+    font-size: 0.8em;
+    transition: all 200ms ease-in-out;
+}
+
+.button_read:hover {
+    background-color: black;
+}
+
+.description p {
+    margin-top: 0;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+#articles {
+    margin-bottom: 2em;
+}

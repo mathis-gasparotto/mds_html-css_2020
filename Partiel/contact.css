@@ -1,0 +1,95 @@
+body {
+    font-family: 'Sans Pro' , sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0px;
+}
+
+#page {
+    margin: auto;
+    width: 1100px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 1000px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#menu nav {
+    margin-top: 2em;
+}
+
+#menu img {
+    margin-top: 1em;
+}
+
+#bottom_bar {
+    background-color: black;
+    width: 100%;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+
+#bottom_bar p{
+    font-size: 18px;
+    color: white;
+}
+
+#contact {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+#contact_form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact_form label {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+#contact_form input {
+    height: 2em;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+#message {
+    margin-bottom: 3em;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+#button_send {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: #0044aa;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
